@@ -34,7 +34,7 @@ The dataset was divided into training and testing sets using an 80:20 stratified
 
 ## 3. GitHub Repository
 
-**Repository URL:** [Add your GitHub repository URL]
+**Repository URL:** [https://github.com/PavansaiPodichervu/Steel-Plate-Fault-Classification]
 
 The repository contains:
 
@@ -104,6 +104,9 @@ AUC was calculated using the One-vs-Rest multiclass strategy with macro averagin
 
 The following results were obtained from the model evaluation experiment.
 
+
+### Model Comparison Table
+
 | ML Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
 | Logistic Regression | 0.7275 | 0.9379 | 0.7613 | 0.7305 | 0.7418 | 0.6487 |
@@ -111,6 +114,7 @@ The following results were obtained from the model evaluation experiment.
 | KNN | 0.7275 | 0.9184 | 0.7458 | 0.7482 | 0.7416 | 0.6548 |
 | Naive Bayes | 0.4524 | 0.8386 | 0.4315 | 0.4795 | 0.3830 | 0.3789 |
 | SVM | 0.7455 | 0.9361 | 0.7910 | 0.7334 | 0.7551 | 0.6701 |
+
 
 ### Model Performance Observations
 
@@ -165,10 +169,20 @@ Uploaded test datasets are evaluated using the selected trained model without re
 
 Clone the repository:
 
+Clone the repository:
+
 ```bash
-git clone [YOUR_GITHUB_REPOSITORY_URL]
-cd steel-plate-classification
+git clone https://github.com/PavansaiPodichervu/Steel-Plate-Fault-Classification.git
+cd Steel-Plate-Fault-Classification
 ```
+
+Alternatively, using GitHub CLI:
+
+```bash
+gh repo clone PavansaiPodichervu/Steel-Plate-Fault-Classification
+cd Steel-Plate-Fault-Classification
+```
+
 
 Create and activate a virtual environment:
 
@@ -197,7 +211,7 @@ streamlit run app.py
 
 ## 6. Streamlit Deployment
 
-**Live Application URL:** [Add your Streamlit Community Cloud URL]
+**Live Application URL:** [https://steel-plate-fault-classification-qx9angjwpwdxnzv4u6jx8v.streamlit.app/]
 
 The deployed application allows users to select a trained classification model, upload test data, and evaluate classification performance interactively.
 
